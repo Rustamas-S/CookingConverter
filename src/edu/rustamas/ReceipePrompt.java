@@ -23,13 +23,13 @@ public class ReceipePrompt {
                 String input = scanner.nextLine();
                 float amount = Float.parseFloat(input);
                 if (amount < 0) {
-                    System.out.println("ERROR. Amount can't be negative. Please enter valid amount.");
+                    System.out.println("ERROR! Amount can't be negative. Please enter valid amount.");
                 } else {
                     this.amount = amount;
                     break;
                 }
             } catch (NumberFormatException e) {
-                System.out.println("ERROR. Invalid number. Please enter valid number.");
+                System.out.println("ERROR! Invalid number. Please enter valid number.");
             }
         }
     }
@@ -40,7 +40,7 @@ public class ReceipePrompt {
             System.out.print("Enter unit from: ");
             String input = scanner.nextLine().toUpperCase();
             if (!Cooking.Units.isValid(input)) {
-                System.out.println("ERROR. Unit isn't valid. Please enter valid unit." + Cooking.Units.getValues());
+                System.out.println("ERROR! Unit isn't valid. Please enter valid unit." + Cooking.Units.getValues());
             } else {
                 this.unitFrom = input;
                 this.isUnitVolume = Cooking.Units.getVolumeValues().contains(input);
@@ -55,21 +55,21 @@ public class ReceipePrompt {
             System.out.print("Enter unit to: ");
             String input = scanner.nextLine().toUpperCase();
             if (!Cooking.Units.isValid(input)) {
-                System.out.println("ERROR. Unit isn't valid. Please enter valid unit." + Cooking.Units.getValues());
+                System.out.println("ERROR! Unit isn't valid. Please enter valid unit." + Cooking.Units.getValues());
             } else {
                 if (isUnitVolume) {
                     if (Cooking.Units.getVolumeValues().contains(input)) {
                         this.unitTo = input;
                         break;
                     } else {
-                        System.out.println("ERROR. Unit isn't volume unit. Please enter volume units." + Cooking.Units.getVolumeValues());
+                        System.out.println("ERROR! Unit isn't volume unit. Please enter volume units." + Cooking.Units.getVolumeValues());
                     }
                 } else {
                     if (Cooking.Units.getWeightValues().contains(input)) {
                         this.unitTo = input;
                         break;
                     } else {
-                        System.out.println("ERROR. Unit isn't weight unit. Please enter weight units." + Cooking.Units.getWeightValues());
+                        System.out.println("ERROR! Unit isn't weight unit. Please enter weight units." + Cooking.Units.getWeightValues());
                     }
                 }
             }
