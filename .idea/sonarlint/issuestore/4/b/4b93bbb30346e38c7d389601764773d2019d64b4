@@ -1,0 +1,15 @@
+
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(¥È¸Ê8¢î—¦Ù.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(óô­°8ó§¶¦Ù.
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(¦½½öıÿÿÿÿ8¢î—¦Ù.
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(¥È¸Ê8¢î—¦Ù.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(Ïİà÷8¢î—¦Ù.
+z	java:S1356"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8íë•¦Ù.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñõ*8¢î—¦Ù.
+U
+java:S1117"9Rename "amount" which hides the field declared at line 6.(ºê„38¢î—¦Ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ãË«Úüÿÿÿÿ8¢î—¦Ù.
+t
+java:S37764"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¬±İşÿÿÿÿ8 ó ¦Ù.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(µŸû˜øÿÿÿÿ8¢î—¦Ù.
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(Øñ¯—ûÿÿÿÿ8É“®¦Ù.

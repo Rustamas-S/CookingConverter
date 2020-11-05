@@ -7,3 +7,5 @@ a
 1src/edu/rustamas/CookingMeasurementConverter.java,a\8\a8542f552c6a0a3e8fbdd55543d1722303e8567a
 J
 src/edu/rustamas/Main.java,d\f\df6ad49b5e636b64b688414d395889140fe79f55
+S
+#src/edu/rustamas/ReceipePrompt.java,4\b\4b93bbb30346e38c7d389601764773d2019d64b4
